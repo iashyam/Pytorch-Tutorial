@@ -1,0 +1,14 @@
+[project]
+name = "core"
+version = "0.1.0"
+description = "My core library"
+authors = [
+  {name = "Shyam", email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
