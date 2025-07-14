@@ -7,9 +7,6 @@ import zipfile
 import string
 import unicodedata
 
-
-
-
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f'using {device} device')
 
